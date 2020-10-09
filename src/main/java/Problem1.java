@@ -3,7 +3,7 @@ public class Problem1 {
     // Do not change signature (function name, parameters)
     public static int binarySearch(int[] input, int target) {
         // Add your solution
-        if ( input.length == 0 || input == null){
+        if (input == null|| input.length == 0 ){
             return -1;
         }
         int l = 0, r = input.length - 1;
