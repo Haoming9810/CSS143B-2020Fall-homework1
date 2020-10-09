@@ -2,7 +2,7 @@ public class Problem2 {
 
     // Do not change signature (function name, parameters)
     public static void bubbleSort(int[] data) {
-        if ( data.length == 0 || data == null){
+        if (  data == null||data.length == 0 ){
             return ;
         }
         // Add your solution
